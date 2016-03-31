@@ -15,6 +15,7 @@
 		BA1E86FD1CAD62E000B1DF1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1E86FB1CAD62E000B1DF1D /* LaunchScreen.storyboard */; };
 		BA1E87081CAD62E000B1DF1D /* POPGreeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E87071CAD62E000B1DF1D /* POPGreeButtonTests.m */; };
 		BA1E87131CAD62E000B1DF1D /* POPGreeButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E87121CAD62E000B1DF1D /* POPGreeButtonUITests.m */; };
+		BA1E87281CAD84C300B1DF1D /* POPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1E87271CAD84C300B1DF1D /* POPButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BA1E870E1CAD62E000B1DF1D /* POPGreeButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POPGreeButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1E87121CAD62E000B1DF1D /* POPGreeButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPGreeButtonUITests.m; sourceTree = "<group>"; };
 		BA1E87141CAD62E000B1DF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1E87261CAD84C300B1DF1D /* POPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPButton.h; sourceTree = "<group>"; };
+		BA1E87271CAD84C300B1DF1D /* POPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				BA1E86F11CAD62E000B1DF1D /* AppDelegate.m */,
 				BA1E86F31CAD62E000B1DF1D /* ViewController.h */,
 				BA1E86F41CAD62E000B1DF1D /* ViewController.m */,
+				BA1E87251CAD84C300B1DF1D /* POPButton */,
 				BA1E86F61CAD62E000B1DF1D /* Main.storyboard */,
 				BA1E86F91CAD62E000B1DF1D /* Assets.xcassets */,
 				BA1E86FB1CAD62E000B1DF1D /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				BA1E87141CAD62E000B1DF1D /* Info.plist */,
 			);
 			path = POPGreeButtonUITests;
+			sourceTree = "<group>";
+		};
+		BA1E87251CAD84C300B1DF1D /* POPButton */ = {
+			isa = PBXGroup;
+			children = (
+				BA1E87261CAD84C300B1DF1D /* POPButton.h */,
+				BA1E87271CAD84C300B1DF1D /* POPButton.m */,
+			);
+			path = POPButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				BA1E86F51CAD62E000B1DF1D /* ViewController.m in Sources */,
 				BA1E86F21CAD62E000B1DF1D /* AppDelegate.m in Sources */,
+				BA1E87281CAD84C300B1DF1D /* POPButton.m in Sources */,
 				BA1E86EF1CAD62E000B1DF1D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

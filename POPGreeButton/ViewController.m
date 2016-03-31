@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "POPButton.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor yellowColor];
+    POPButton *popbutton = [POPButton buttonWithNomalImage:[UIImage imageNamed:@"Like"]
+                                               selectImage:[UIImage imageNamed:@"Like-Blue"]
+                                                sparkImage:[UIImage imageNamed:@"Sparkle"]
+                                            popButtonClick:^(UIButton* _Nullable sender) {
+                                                
+                                                
+                                                NSLog(@"%@",sender.isSelected?@"yes":@"no");
+                                                
+                                            }];
+    popbutton.frame = CGRectMake(0, 0, 100, 100);
+    popbutton.center = self.view.center;
+    [self.view addSubview:popbutton];
+  
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
